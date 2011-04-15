@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 2) do
 
-  create_table "customers", :force => true do |t|
+  create_table "customer", :force => true do |t|
     t.string   "name"
     t.string   "country"
     t.datetime "created_at"
